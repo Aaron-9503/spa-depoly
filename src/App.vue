@@ -1,6 +1,6 @@
 <template>
   <router-link to="/">home</router-link>
-  |
+  <h1>git-actions+docker 前端自动化部署</h1>
   <router-link to="/about">about</router-link>
   <router-view></router-view>
 </template>
