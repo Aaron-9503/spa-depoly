@@ -10,4 +10,4 @@ services:
         - ACCESS_KEY_SECRET
         - ENDPOINT=oss-cn-hangzhou.aliyuncs.com
     ports:
-      - 4000:80
+      - 1000:80
