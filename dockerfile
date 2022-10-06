@@ -15,7 +15,7 @@ ARG ENDPOINT
 WORKDIR /code
 
 # 为了更好的缓存，把它放在前边
-RUN wget https://gosspublic.alicdn.com/ossutil/1.7.14/ossutil64 -O /usr/local/bin/ossutil \
+RUN wget http://gosspublic.alicdn.com/ossutil/1.7.14/ossutil64 -O /usr/local/bin/ossutil \
   && chmod 755 /usr/local/bin/ossutil \
   && ossutil config -i $ACCESS_KEY_ID -k $ACCESS_KEY_SECRET -e $ENDPOINT
 
